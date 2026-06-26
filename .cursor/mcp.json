@@ -1,0 +1,10 @@
+{
+    "mcpServers": {
+        "messagekit": {
+            "command": "C:/Users/AGA Computer/AppData/Roaming/npm/node_modules/bun/bin/bun.exe",
+            "args": ["packages/local-mcp/src/index.ts"],
+            "cwd": "${workspaceFolder}",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    }
+}

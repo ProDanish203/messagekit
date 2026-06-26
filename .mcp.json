@@ -1,0 +1,13 @@
+{
+    "mcpServers": {
+        "messagekit": {
+            "type": "stdio",
+            "command": "C:/Users/AGA Computer/AppData/Roaming/npm/node_modules/bun/bin/bun.exe",
+            "args": ["packages/local-mcp/src/index.ts"],
+            "cwd": "D:/Web dev/AI Apps/message-kit",
+            "env": {
+                "TELEGRAM_BOT_TOKEN": ""
+            }
+        }
+    }
+}
