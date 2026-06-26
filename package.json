@@ -1,11 +1,16 @@
 {
-    "name": "messagekit-workspace",
-    "private": true,
-    "type": "module",
-    "workspaces": [
-        "packages/*"
-    ],
-    "scripts": {
-        "dev:cli": "bun packages/cli/src/index.ts"
-    }
+  "name": "messagekit-workspace",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "node-fetch": "^3.3.2"
+  },
+  "scripts": {
+    "dev:cli": "bun packages/cli/src/index.ts",
+    "dev:local-mcp": "bun packages/local-mcp/src/index.ts"
+  }
 }
