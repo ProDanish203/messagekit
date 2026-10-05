@@ -10,7 +10,7 @@
     "node-fetch": "^3.3.2"
   },
   "scripts": {
-    "dev:cli": "bun packages/cli/src/index.ts",
-    "dev:local-mcp": "bun packages/local-mcp/src/index.ts"
+    "dev:cli": "node init && bun packages/cli/src/index.ts",
+    "dev:local-mcp": "node init && bun packages/local-mcp/src/index.ts"
   }
 }
